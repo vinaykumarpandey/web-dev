@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- This is my Comment -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is description">
+    <meta name="keywords" content="Java, html tutorials, Web development">
+    <meta name="robots" content="NOINDEX, NOFOLLOW">
+    <title>Html jss and css demo page</title>
+</head>
+<body>
+    
+   <!-- Header section to be included -->
+   <div id="Header"></div>
+
+   <div>
+      <h1>This is header1</h1>
+      <h2>This is header2</h2>
+      <h3>This is header3</h3>
+      <h4>This is header4</h4>
+      <h5>This is header5</h5>
+      <h6>This is header6</h6>
+   </div>
+
+   <div>
+      <hr>
+      <h4>Links to various websites</h4>
+      <a href="https://www.google.co.in/">Google</a> <br/>
+      <a href="https://www.facebook.com/">Facebook</a> <br/>
+      <hr>
+   </div>
+ 
+   <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5S_veyC3KeLmrwVQE5WIhw8SXZxpz-Zh0Uw&s"
+           alt="Unable to load image" height="400px" width="400px"> 
+      <img src="Binny.jpg"
+           alt="Unable to load image" height="400px" width="400px">
+      <img src="images.jpeg"
+           alt="Unable to load image" height="400px" width="400px"> 
+      <img src="https://www.socialpilot.co/wp-content/uploads/2023/02/gif.gif"
+           alt="Unable to load image" height="400px" width="400px">
+   </div>
+ 
+   
+   <br/>
+   <hr>
+   <br/>
+   <h4>This is sub and sup demo</h4>
+   <div>
+     <p>This content includes <sub>subscript</sub> contents</p>
+     <p>This content includes <sup>superscript</sup> contents</p>
+   </div>
+
+   <hr>
+   <h4>The pre element</h4>
+   <div>
+      <pre>
+         Text in a
+         pre 
+         element
+         is displayed in a fixed-width
+         font, and it preserves
+         both      spaces and
+         line breaks
+      </pre>   
+   </div>
+   <hr>
+
+   <h4>This is unordered List demo</h4>
+   <hr>
+   <div>
+      <ul>
+         <li> Apple </li>
+         <li> Orange </li>
+         <li> Banana </li>
+      </ul>
+   </div>
+</hr>
+
+<hr></hr>
+
+   <h4>This is ordered List demo</h4>
+   <div>
+      <ol type = "A">
+         <li> Apple </li>
+         <li> Orange </li>
+         <li> Banana </li>
+      </ol>
+   </div>
+
+   <div>
+      HelloWorld
+      <span>Inline </span>
+   </div>
+
+   <div>
+   
+      <span>A </span>
+      <span>B </span>
+      <span>C </span>
+      <span>D </span>
+      <span>E </span>
+
+   </div>
+
+   <table border="1" style="border-collapse: collapse; width: 100%">
+      <caption>Scoreboard</caption>
+     <thead>
+      <tr>
+         <th>Name</th>
+         <th>Runs</th>
+         <th>Ball</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+      <td>Virat KOhli</td>
+      <td>100</td>
+      <td>75</td>
+     </tr>
+   <tr>
+
+      <td>Shubhman Gill</td>
+      <td>130</td>
+      <td>80</td>
+   </tr>   
+   </tbody>
+   
+   
+   </table>
+
+
+
+
+   <script>
+      fetch('Header.html')
+         .then(response => response.text())
+         .then(data => document.getElementById('Header').innerHTML = data)
+         .catch(error => console.error('Error loading header:', error));
+   </script>
+
+</body>
+</html>

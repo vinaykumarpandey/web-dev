@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+
+    <!-- Placeholder for the dynamic header -->
+    <div id="Header"></div>
+
+    <!-- Main Content -->
+    <main>
+        <p>This is the About page of our website. Here, you can find more information about our mission, values, and the services we provide.</p>
+    </main>
+
+    <!-- JavaScript to load the header -->
+    <script>
+        fetch('Header.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('Header').innerHTML = data)
+            .catch(error => console.error("Error loading header:", error));
+    </script>
+
+</body>
+</html>
