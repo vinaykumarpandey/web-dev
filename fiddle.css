@@ -43,7 +43,7 @@
 }
 .parent {
     display: flex;
-    flex-direction: column-reverse;
+    /*flex-direction: column-reverse;*/
 
 }
 
@@ -61,4 +61,13 @@
 }
 .child-3 {
     background-color: green;
+}
+.child-4 {
+    background-color: rgb(223, 223, 228);
+}
+.child-5{
+    background-color: rgb(12, 12, 9);
+}
+.child-6 {
+    background-color: violet;
 }
