@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="page.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    
+    <div id="content">
+        This is good
+        <button id="btn">Click Me</button>
+    </div>
+
+    <script src="page.js"></script> 
+</body>
+</html>
+
+
+// let x = function() {
+//     alert("Helloworld1");
+//   }
+  
+//   let y = function() {
+//       alert("Helloworld2");
+//     }
+
+//     //const button = document.getElementById('btn');
+
+//     btn.addEventListener('click' , x);
+//     btn.addEventListener('click', y);
+
+
+  
+   const changeBackgroundColor = () => {
+         document.getElementById('content').style.backgroundColor = 'red';
+    }
+
+    const makeTextBold = () => {
+        const contentDiv = document.getElementById('content');
+        contentDiv.firstChild.nodeValue = "This is good";
+        contentDiv.classList.add('italic-text');
+    }
+
+    const button = document.getElementById('btn');
+    if (button) { // Check if button exists
+        button.addEventListener('click', changeBackgroundColor);
+        button.addEventListener('click', makeTextBold);
+    } else {
+        console.error("Button with id 'btn' not found.");
+    }
+
+
+
+.bold-text {
+    font-weight: bold;
+}
+.italic-text {
+    font-weight: italic;
+}
+
+
