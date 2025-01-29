@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventListener</title>
+
+
+<body>
+
+    <div class="test">
+        <p> some text  already there </p>
+        <button> click me </button>
+    </div>
+
+
+      <script>
+        let btn = document.querySelector(".test button");
+        console.log(btn);
+        btn.addEventListener("click", function(){
+            let ele = document.createElement("p");
+            ele.innerText = "Hello";
+
+            let parent = document.querySelector(".test");
+            parent.appendChild(ele);
+            console.log("clicked");
+        });
+    </script>    
+</head>
+
+    
+</body>
+</html>

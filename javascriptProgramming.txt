@@ -1,0 +1,172 @@
+//console.log("hello!!")
+
+// Variables in Javascript
+
+// Number
+/* var a = 10 //int
+var b = 10.5 //float
+
+//String
+var c = "Bangalore" //string
+
+//Boolean
+var d = true // boolean
+
+//Undefined
+var e //undefined
+
+//Null
+var f = null */
+
+/* console.log(e);
+console.log(f);
+
+console.log(typeof(a));
+console.log(typeof(b));
+console.log(typeof(c));
+console.log(typeof(d));
+console.log(typeof(e));
+console.log(typeof(f));
+
+console.log(typeof typeof(f));
+
+console.log(c); */
+
+// difference between == and ===
+
+/* console.log(1 == 1);
+console.log(1 === 1);
+
+console.log(1 == "1");   //t // numeric conversion
+console.log(1 === "1");  //f
+console.log(+"1");
+console.log("1"); */
+
+//console.log(true == "true") //f
+//console.log(true === "true");   //f
+
+//console.log(false == 1) //f
+//console.log(true === 1); //f
+
+//console.log(true == 0) //f
+//console.log(true === 0); //f
+
+//coversion -> conversion
+
+// numberic conversion
+// bollean conversion
+// string conversion
+
+//two types of conversion
+
+// 1. Implecit Conversion
+// 2. Explicit Conversion
+
+// Datatypes in Javascript
+
+// 1 .Number
+// 2. String
+// 3. Boolean
+// 4. Undefined
+// 5. Null
+
+//Variables in Java/C/C++/C#
+// int a = 10;
+// float b = 10.5;
+// String str = "Bangalore"
+// double d = 20.56746;
+// boolean flag = true;
+
+/* when you run the javascript code a memory will be created & the item ex. 10 will be mapped/linked to that memory/variable */
+
+/* very loosly types or very dynamic typed language*/
+
+// Variables in Javascript - var, let, const
+
+/* var a = "Vinay";
+const b = "Bangalore";
+b = "Delhi"
+
+// var is considered to be a global variable - its scope is gloabl
+// while let is local variable and its scope is local.
+// if you declare any variable as const, you can't change the value of the variable
+
+{
+ var a = "Pandey";
+ console.log(a);
+}
+
+console.log(a); 
+console.log(b); */
+
+
+// Functional Programming 
+
+            //0  1  2  3 4
+/* let arr = [1, 2, 3, 4, 5];
+//console.log(arr);
+let length = arr.length;
+let value = 12;
+sumDigit(arr, value);
+//console.log(length);
+
+// add 5 to each and every element in the array
+
+//let result = [6, 7, 8, 9, 10]
+
+arr[0] - 1
+arr[1] - 2
+arr[2] - 3
+arr[3] - 4
+arr[4] - 5
+ 
+ function sumDigit(arr, value){
+     for(let i =0; i<length; i++){
+      arr[i] =  arr[i] + value;
+     }
+     console.log(arr);
+ } */
+ 
+
+
+/* 
+console.log(arr);
+
+
+function a(){
+console.log("I am a function");
+}
+
+a(); */
+
+// passing a function as an argument
+
+ /* Passing a function as an argument to another function is called 
+ function call back */
+ 
+
+ function abc(test){
+  console.log(test());
+}
+
+//abc("1");
+
+//abc(10.5);
+
+let myfunction = function(){
+ console.log("I am inside function");
+ return 10;
+ }
+
+
+ abc(myfunction);   
+ 
+ 
+ // Ex2 
+ 
+/* let test = function(){
+ console.log("I am inside the function");
+ return 10;
+}
+
+console.log(test()); */

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Tutorials</title>
+    <style>
+       /* (*)Universal selector*/ 
+       * {
+       
+          margin: 0;
+          padding: 0;
+        }
+
+        body{
+            background-color: tomato;
+            color: rgb(rgb(0, 217, 255), green, blue);
+            font-size: 20px;
+            line-height: 15px;
+        }
+
+        .container {
+            width: 150px;
+            height: 550px;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 100px auto; 
+
+            display: grid;
+            /*1fr - fractional unit */
+
+            /* width of 1 fr = width/total no. of fr */
+            /* 90*3 =270px; container width is 280 px - 10px is still there.. it will be again devided among the 3 colums - 9px each */
+            grid-template-columns:repeat(3, minmax(90px, 1fr))
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+       <div class="item">1</div>
+       <div class="item">2</div>
+       <div class="item">3</div>
+       <div class="item">4</div>
+       <div class="item">5</div>
+       <div class="item">6</div>
+
+
+
+    </div>
+</body>
+</html>

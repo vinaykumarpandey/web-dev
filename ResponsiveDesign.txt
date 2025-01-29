@@ -1,0 +1,79 @@
+Responsive Design -
+
+  Web 2.0
+
+
+web 1.0 -  read only kind of web pages - completely static - like News Paper.
+
+Web 2.0 - Read & Write both on websites in very convenient manner - Qura
+
+Web 3.0 - 3D , There will be UI + Backend Components
+
+HotStar Plus  - 
+
+
+ Client  -  Mobile, Web     -  1 Repo/1 Code structure supporting all kind of devices -
+          - IPHONE
+          - ANDROID
+          - LAPTOP
+           - Desktop 
+
+
+To move from one system to another system or across multiple system or devices we need css -
+
+These css can be easily handled through 
+
+    - Media queries
+     - Flexbox
+      - Grid
+
+Css Units -
+
+1. PX
+2. %tage
+
+VH  - View Height
+VW - View Width
+
+
+
+Flex - 2D 
+-
+Flexible boxes - 
+
+Display - flex
+
+Flex-direction 
+  
+It defines the place of content or boxes on main axis or cross axis
+   Row
+   Column
+   Row-revers
+   Column-reverse
+
+
+Justify content 
+   It defines the location on main axis, if the flex-direction is default or row,  like spacing  of the content or boxes on the webpage 
+    Flex-start
+    Flex-end
+    center
+   Space-between
+   Space-evenly
+   Space-around
+
+Align-items 
+
+
+Order - ?
+
+By default the order is 0
+
+
+Flex-flow -  flex-direction: row + flex-wrap
+
+
+
+
+Flex-grow  -  to grow the boxes in size double or triple in proportion to other boxes
+
+Flex-shrink - to shrink the boxes in size double or triple in proportion to other boxes
